@@ -1,0 +1,251 @@
+.blur{
+    position: absolute;z-index: -2;
+    width: 72.4%;
+    float: right;
+    margin-left: 27.6%;
+    
+}
+.background_slider_img{
+    width: 100%;
+    position: relative ; z-index: -3;
+}
+.sub_img{
+    position: absolute;z-index: -2;
+    width: 43.2%;
+}
+.sub_img_2{
+    position: absolute;z-index: -2;
+    width: 22%;
+    top: 0.7%;
+}
+.anime_titel_eva{
+    
+    margin-top: 10%;
+    width: 80%;
+}
+.anime_text{
+    color: var( --clr-White, #FFF);
+    font-family: Inter;
+font-size: 3rem;
+font-style: normal;
+font-weight: 100;
+line-height: normal;
+
+    
+    position: absolute;
+    margin-left: 72%;
+    margin-top: 4%;
+    width: 32%;
+}
+.eva_h1{
+    padding-top: 5rem;
+    padding: auto;
+    color: var( --clr-White, #FFF);
+    font-family: Inter;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    margin-left: -15rem;
+}
+.btn{
+    margin-left: 19rem;
+    margin-top: 8rem;
+    justify-content: space-between;
+    color: var(--clr-White);
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    width: 40%;
+    height: 5rem;
+    border-radius: 2.875rem;
+    background: #FF5C00;
+    padding-left:  1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+}
+.anime_titel_dragonball{
+    margin-top: 10%;
+    width: 80%;
+}
+.Dragon_Ball_h1{
+    padding-top: rem;
+    padding: auto;
+    color: var( --clr-White, #FFF);
+    font-family: Inter;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    margin-left: -15rem;
+
+}
+.btn_1{
+    margin-left: 19rem;
+    margin-top: 2rem;
+    justify-content: space-between;
+    color: var(--clr-White);
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    width: 40%;
+    height: 5rem;
+    border-radius: 2.875rem;
+    background: #FF5C00;
+    padding-left:  1rem;
+    padding-right: 1rem;
+    text-decoration: none; 
+}
+.swiper-button-next{
+    display: flex;
+    
+    background-color: aqua;
+}
+.anime_titel_bleach{
+    margin-top: 10%;
+    width: 80%;
+    margin-left: -10rem;
+}
+.bleach_h1{
+    padding: auto ;
+    color: var( --clr-White, #FFF);
+    font-family: Inter;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    margin-left: -15rem;
+}
+.btn_2{
+    margin-left: 19rem;
+    margin-top: 9rem;
+    justify-content: space-between;
+    color: var(--clr-White);
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    width: 40%;
+    height: 5rem;
+    border-radius: 2.875rem;
+    background: #FF5C00;
+    padding-left:  1rem;
+    padding-right: 1rem;
+    text-decoration: none; 
+}
+.like{
+    position: absolute;
+    margin-left: 94%;
+    margin-top: 1%;
+}
+/* lg */
+@media(max-width:1950px){
+    .anime_text{
+    font-size: 2rem;
+    }
+    .eva_h1{
+        padding-top: 2rem;
+        font-size: 2rem;
+        margin-left: -10rem;
+    }
+    .btn{
+        margin-left: 14rem;
+        margin-top: 5rem;
+    }
+}
+.Dragon_Ball_h1{
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    margin-left: -11rem;
+
+}
+.anime_titel_dragonball{
+    margin-top: 1%;
+    width: 80%;
+}
+.btn_1{
+    margin-left: 14rem;
+    margin-top: 2+rem;
+
+
+}
+.like{
+
+    margin-left: 92%;
+
+}
+.bleach_h1{
+    font-family: Inter;
+    font-size: 1.8rem;
+    margin-left: -15rem;
+}
+.btn_2{
+    margin-left: 14rem;
+    margin-top: 4rem;
+}
+/* md */
+@media(max-width:1545px){
+    .anime_text{
+        font-size: 1rem;
+        }
+        .eva_h1{
+            padding-top: 1rem;
+            font-size: 23px;
+            margin-left: -5rem;
+        }
+        .btn{
+            margin-left: 12rem;
+            margin-top: 5rem;
+            width: 35%;
+            height: 4rem;
+            padding-left: 1rem;
+        }
+    
+    .Dragon_Ball_h1{
+        font-size: 1.4rem;
+        font-style: normal;
+        font-weight: 100;
+        line-height: normal;
+        margin-left: -11rem;
+    
+    }
+    .anime_titel_dragonball{
+        width: 60%;
+    }
+    .btn_1{
+        margin-left: 12rem;
+            margin-top: 5rem;
+            width: 35%;
+            height: 4rem;
+            padding-left: 1rem;
+    
+    
+    }
+    .like{
+
+        margin-left: 91%;
+        width: 50%;
+    
+    }
+    .bleach_h1{
+        font-size: 1.4rem;
+        margin-left: -11rem;
+    }
+    .btn_2{
+            margin-left: 12rem;
+                margin-top: 3rem;
+                width: 35%;
+                height: 4rem;
+                padding-left: 1rem;
+    }
+
+
+}
+@media(max-width:1200px){
+
+    .btn{
+        margin-left: 120rem;
+    }
+
+}
